@@ -13,6 +13,10 @@ elif player_one == 'paper' and player_two == 'rock':
     print('Player 1 wins')
 elif player_one == 'paper' and player_two == 'scissors':
     print('Player 2 wins')
+elif player_one == 'scissors' and player_two == 'rock':
+    print('Player 2 wins')
+elif player_one == 'scissors' and player_two == 'paper':
+    print('Player 1 wins')
 elif player_one == player_two:
     print('Draw, Go again')
 else:
