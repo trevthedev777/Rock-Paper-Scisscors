@@ -1,12 +1,12 @@
-import random
+from random import randint
 
 print('Rock...')
 print('Paper...')
 print('Scissors...')
 
-player = input('Player 1, make your move: ').lower()
+player = input('Player, make your move: ').lower()
 print('--------------\n' * 30)
-rand_num = random.randint(0,2)
+rand_num = randint(0,2)
 if rand_num == 0:
     ai = 'rock'
 elif rand_num == 1:
