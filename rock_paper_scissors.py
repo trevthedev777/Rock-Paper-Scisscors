@@ -1,11 +1,11 @@
 import random
 
-# print('Rock...')
-# print('Paper...')
-# print('Scissors...')
+print('Rock...')
+print('Paper...')
+print('Scissors...')
 
-# player_one = input('Player 1, make your move: ')
-# print('--------------\n' * 30)
+player = input('Player 1, make your move: ').lower()
+print('--------------\n' * 30)
 rand_num = random.randint(0,2)
 if rand_num == 0:
     ai = 'rock'
@@ -13,10 +13,7 @@ elif rand_num == 1:
     ai = 'paper'
 else:
     ai = 'scissors'
-print(ai)
-
-# player_two = input('Player 2, make your move: ')
-# print('--------------\n' * 30)
+print(f'Computer plays {ai}')
 
    
 if player == ai:
