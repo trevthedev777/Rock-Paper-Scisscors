@@ -19,25 +19,25 @@ print(ai)
 # print('--------------\n' * 30)
 
    
-# if player_one == player_two:
-#     print('Draw')
-# elif player_one == 'rock':
-#     if player_two == 'scissors':
-#         print('Player 1 Wins')
-#     elif player_two == 'paper':
-#         print('Player 2 wins')
-# elif player_one == 'paper':
-#     if player_two == 'rock':
-#         print('Player 1 wins')
-#     elif player_two == 'scissors':
-#         print('Player 2 wins')
-# elif player_one == 'scissors':
-#     if player_two == 'paper':
-#         print('Player 1 Wins')
-#     elif player_two == 'rock':
-#         print('Player 2 wins')
-# else:
-#     print('Something went wrong')
+if player == ai:
+    print('Draw')
+elif player == 'rock':
+    if ai == 'scissors':
+        print('Player Wins')
+    elif ai == 'paper':
+        print('Computer Wins')
+elif player == 'paper':
+    if ai == 'rock':
+        print('Player wins')
+    elif ai == 'scissors':
+        print('Computer wins')
+elif player == 'scissors':
+    if ai == 'paper':
+        print('Player Wins')
+    elif ai == 'rock':
+        print('Computer wins')
+else:
+    print('Something went wrong')
             
 
 
